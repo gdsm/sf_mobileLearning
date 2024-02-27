@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: org.jetbrains.kotlinx:kotlinx-serialization-json:nativeMain:1.4.0-RC" type="kotlin.native" external-system-id="GRADLE">
+    <properties groupId="org.jetbrains.kotlinx" artifactId="kotlinx-serialization-json" version="1.4.0-RC" />
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/.gradle/kotlin/sourceSetMetadata/kmm.androidlearning/commonTest/implementation/org.jetbrains.kotlinx-kotlinx-serialization-json/org.jetbrains.kotlinx-kotlinx-serialization-json-nativeMain.klib!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-serialization-json/1.4.0-RC/945b5f5c519e995a9e9f8e5df6a1443f930420af/kotlinx-serialization-json-1.4.0-RC-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,45 @@
+CREATE TABLE Color (
+    id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+    "rgba" TEXT DEFAULT 'FFFFFFFF'
+);
+
+CREATE TABLE Category (
+  id INTEGER,
+  name TEXT,
+  PRIMARY KEY("id")
+);
+
+
+selectCategoryById:
+SELECT * FROM Category WHERE id = ?;
+
+selectAllCategories:
+SELECT * FROM Category;
+
+insertCategory:
+INSERT INTO Category(id, name)
+VALUES (?, ?);
+
+updateCategory:
+UPDATE Category SET name=? WHERE id = ?;
+
+removeCategory:
+DELETE FROM Category;
+
+
+
+
+
+selectAllColors:
+SELECT * FROM Color;
+
+selectColor:
+SELECT * FROM Color WHERE rgba = ?;
+
+insertColor:
+INSERT INTO Color(rgba)
+VALUES (?);
+
+removeColor:
+DELETE FROM Color  WHERE rgba = ? ;
+

@@ -1,0 +1,23 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        mavenCentral()
+        google()
+    }
+}
+//dependencyResolutionManagement {
+//    repositories {
+//        google()
+//        mavenCentral()
+//        gradlePluginPortal()
+//        jcenter()
+//    }
+//}
+//includeBuild("kmmLearning") {
+//    dependencySubstitution {
+//        substitute(module("com.neural:kmmLearning")).with(project(":"))
+//    }
+//}
+rootProject.name = "androidlearning"
+include ':app'
+include ':kmm'

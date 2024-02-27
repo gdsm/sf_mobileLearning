@@ -1,0 +1,16 @@
+CREATE TEMPORARY TABLE tColor (
+	id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+	red TEXT DEFAULT 'FF',
+	green TEXT DEFAULT 'FF',
+	blue TEXT DEFAULT 'FF'
+);
+INSERT INTO tColor(red, green, blue) SELECT red, green, blue FROM Color;
+DROP TABLE Color;
+ALTER TABLE tColor ADD COLUMN rgba TEXT DEFAULT 'FFFFFF';
+UPDATE tColor SET rgba = red||green||blue||'FF';
+CREATE  TABLE Color (
+	id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+	rgba TEXT DEFAULT 'FFFFFFFF'
+);
+INSERT INTO Color(id, rgba) SELECT id, rgba FROM tColor;
+DROP TABLE tColor;

@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: io.ktor:ktor-client-json:posixMain:2.0.3" type="kotlin.native" external-system-id="GRADLE">
+    <properties groupId="io.ktor" artifactId="ktor-client-json" version="2.0.3" />
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/.gradle/kotlin/sourceSetMetadata/kmm.androidlearning/commonTest/implementation/io.ktor-ktor-client-json/io.ktor-ktor-client-json-posixMain.klib!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.ktor/ktor-client-json/2.0.3/cb47cd84c1b642b731c2c8f65dbf4cbcc1f8df86/ktor-client-json-2.0.3-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

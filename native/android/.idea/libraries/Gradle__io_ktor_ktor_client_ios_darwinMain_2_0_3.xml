@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: io.ktor:ktor-client-ios:darwinMain:2.0.3" type="kotlin.native" external-system-id="GRADLE">
+    <properties groupId="io.ktor" artifactId="ktor-client-ios" version="2.0.3" />
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/.gradle/kotlin/sourceSetMetadata/kmm.androidlearning/iosMain/implementation/io.ktor-ktor-client-ios/io.ktor-ktor-client-ios-darwinMain.klib!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.ktor/ktor-client-ios/2.0.3/bd57ed38ff9a8a314dfb82935a135f0bed1a3f74/ktor-client-ios-2.0.3-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

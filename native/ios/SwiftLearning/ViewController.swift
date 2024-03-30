@@ -116,11 +116,11 @@ class ViewController: UIViewController {
 //        let err : Errors = Errors();
 //        err.debug();
         
-//        let opt : Operators = Operators();
-//        opt.debug();
+        let opt : Operators = Operators();
+        opt.debug();
         
-        let str : StringLiterals = StringLiterals();
-        str.debug();
+//        let str : StringLiterals = StringLiterals();
+//        str.debug();
         
 //        let col : Collection = Collection();
 //        col.debugArray();

@@ -21,6 +21,7 @@ class StringLiterals{
         traverseString()
         subScrintSlice()
         reverse()
+        codeGorillaProblem()
     }
     
     func subString() {
@@ -59,5 +60,36 @@ class StringLiterals{
             return "\($1)" + $0
         }
         print(r)
+    }
+    
+    private func codeGorillaProblem() {
+        
+        let matchedStrings = ["abc"]
+        
+        matchedStrings.forEach {
+            let sft = shift($0)
+            print(sft)
+        }
+        
+        func shift(_ word: String) -> String {
+            var res = ""
+            word.forEach { character in
+                res = res + next(String(character))
+            }
+            return res
+        }
+        
+        func next(_ char: String) -> String {
+            switch char {
+            case "a":
+                return "b"
+            case "b":
+                return "c"
+            case "c":
+                return "d"
+            default:
+                return char
+            }
+        }
     }
 }

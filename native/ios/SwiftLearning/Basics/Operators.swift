@@ -31,9 +31,12 @@ class Operators{
         
         reverseString()
         
-        
         var xPtr = 10;
         withUnsafePointer(to: &xPtr) { print("Printing memory address \($0)") }
+        
+        [1,2].withUnsafeBytes { ptr in
+            print("Pointer memory \(ptr)")
+        }
     }
     
     func rangeOperators () {

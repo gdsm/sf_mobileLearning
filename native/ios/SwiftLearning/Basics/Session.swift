@@ -13,6 +13,7 @@ class Session {
     
     func backgroundSession() {
         let session = URLSession.shared;
+        session.configuration.allowsExpensiveNetworkAccess = false
     }
     
     func debugAll() {

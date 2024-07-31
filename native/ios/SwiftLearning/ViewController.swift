@@ -116,8 +116,8 @@ class ViewController: UIViewController {
 //        let err : Errors = Errors();
 //        err.debug();
         
-        let opt : Operators = Operators();
-        opt.debug();
+//        let opt : Operators = Operators();
+//        opt.debug();
         
 //        let str : StringLiterals = StringLiterals();
 //        str.debug();
@@ -233,6 +233,12 @@ class ViewController: UIViewController {
 //
 //        let pw = PropertyWrappers()
 //        pw.debug()
+//        
+//        let ct = Telephony()
+//        ct.debug()
+        
+        let ls = LazySequence()
+        ls.debug()
     }
     
     func debugSets() {
@@ -261,6 +267,16 @@ class ViewController: UIViewController {
     
     private func debugAdvanceCoreData() {
         UserProfileDatabase.sharedInstance.initialize()
+    }
+    
+    
+    func someFunc(p1: String) -> Int {
+        // Some func
+        return 1
+    }
+    
+    func someFunc(p2: String) -> Double {
+        return 0.0
     }
 }
 

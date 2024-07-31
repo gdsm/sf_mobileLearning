@@ -20,8 +20,14 @@
 	<string>1</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
-	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
-	<string>for compass to work app needs location information.</string>
+	<key>NSBonjourServices</key>
+	<array>
+		<string>_http._tcp.</string>
+	</array>
+	<key>NSCameraUsageDescription</key>
+	<string>Need Camera Access</string>
+	<key>NSLocalNetworkUsageDescription</key>
+	<string>Needs local access.</string>
 	<key>NSLocationWhenInUseUsageDescription</key>
 	<string>for compass to work app needs location information.</string>
 	<key>UIBackgroundModes</key>

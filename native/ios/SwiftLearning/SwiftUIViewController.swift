@@ -15,7 +15,7 @@ class SwiftUIViewController : UITableViewController {
     
     var basicView : BasicView!
     var listView : ListView!
-
+        
     override func viewDidLoad() {
         super.viewDidLoad()
         self.view.backgroundColor = .white
@@ -57,12 +57,10 @@ class SwiftUIViewController : UITableViewController {
 
         case 3:
             let hostingController = UIHostingController(rootView: UIKit_In_SwiftUI())
-
             self.present(hostingController, animated: true, completion: nil)
 
         case 4:
             let hostingController = UIHostingController(rootView: PropertyWrapperView())
-
             self.present(hostingController, animated: true, completion: nil)
 
         case 5:
@@ -70,6 +68,22 @@ class SwiftUIViewController : UITableViewController {
             
         case 6:
             KeychainManager.sharedInstance.debug()
+
+        case 7:
+            let hostingController = UIHostingController(rootView: ARContentView())
+            self.present(hostingController, animated: true, completion: nil)
+
+        case 8:
+            BonjourHelper.instance.publish()
+
+        case 9:
+            BonjourHelper.instance.search()
+
+        case 10:
+            let storyboard = UIStoryboard(name: "Main", bundle: nil)
+            let viewController = storyboard.instantiateViewController(withIdentifier: "BackgroundRefreshViewController") as! BackgroundRefreshViewController
+            let navController = UINavigationController(rootViewController: viewController)
+            self.present(navController, animated: true, completion: nil)
 
         default:
             print("Unknown swift UI")

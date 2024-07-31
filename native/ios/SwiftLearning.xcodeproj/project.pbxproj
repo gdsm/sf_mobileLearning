@@ -89,17 +89,25 @@
 		E609ACD42B4EC306008A39D7 /* UserProfileDatabase_1_2.xcmappingmodel in Sources */ = {isa = PBXBuildFile; fileRef = E609ACD32B4EC306008A39D7 /* UserProfileDatabase_1_2.xcmappingmodel */; };
 		E609ACD72B4EE23E008A39D7 /* SwiftDataLearning.swift in Sources */ = {isa = PBXBuildFile; fileRef = E609ACD62B4EE23E008A39D7 /* SwiftDataLearning.swift */; };
 		E609ACD92B4EE2BB008A39D7 /* StoreManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E609ACD82B4EE2BB008A39D7 /* StoreManager.swift */; };
+		E60BFB3C2C49727200C80180 /* Unet.mlmodelc in Resources */ = {isa = PBXBuildFile; fileRef = E60BFB3B2C49727200C80180 /* Unet.mlmodelc */; };
+		E60BFB702C52295300C80180 /* BackgroundRefreshViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E60BFB6F2C52295300C80180 /* BackgroundRefreshViewController.swift */; };
 		E6395357242CAA06003CF9CE /* SwiftSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6395356242CAA06003CF9CE /* SwiftSet.swift */; };
 		E639535A242CAA2A003CF9CE /* SetBase.m in Sources */ = {isa = PBXBuildFile; fileRef = E6395359242CAA2A003CF9CE /* SetBase.m */; };
 		E63AEA6F2B5930E700116E22 /* ReduxPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = E63AEA6E2B5930E700116E22 /* ReduxPattern.swift */; };
 		E63AEA732B5A4D4E00116E22 /* KeychainManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E63AEA722B5A4D4E00116E22 /* KeychainManager.swift */; };
 		E66A9E3625626D1D001B3814 /* ReverseSLL.swift in Sources */ = {isa = PBXBuildFile; fileRef = E66A9E3525626D1D001B3814 /* ReverseSLL.swift */; };
 		E68899E22709EB1E00EB70A9 /* CustomHoF.swift in Sources */ = {isa = PBXBuildFile; fileRef = E68899E12709EB1E00EB70A9 /* CustomHoF.swift */; };
+		E69886F02C53AA370005BF63 /* LazySequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = E69886EF2C53AA370005BF63 /* LazySequence.swift */; };
 		E6C36352238EB7D000526890 /* Sorting.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6C36351238EB7D000526890 /* Sorting.swift */; };
+		E6DD73D52C1DCA020085733C /* BonjourHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6DD73D42C1DCA020085733C /* BonjourHelper.swift */; };
 		E6E9810F2B4FB2B00083262B /* AsyncProgramming.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6E9810E2B4FB2B00083262B /* AsyncProgramming.swift */; };
 		E6E981112B4FB3CA0083262B /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6E981102B4FB3CA0083262B /* LocationManager.swift */; };
 		E6EF8FB625616BE30011276C /* ReverseInt.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6EF8FB525616BE30011276C /* ReverseInt.swift */; };
 		E6FB01672B46A97700E354D7 /* UserProfileDatabase.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6FB01662B46A97700E354D7 /* UserProfileDatabase.swift */; };
+		E6FCAA2B2BC6C46200C17D19 /* Telephony.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6FCAA2A2BC6C46200C17D19 /* Telephony.swift */; };
+		E6FCAA762BD18F7400C17D19 /* ARManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6FCAA752BD18F7400C17D19 /* ARManager.swift */; };
+		E6FCAA782BD18FCE00C17D19 /* RealityKitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6FCAA772BD18FCE00C17D19 /* RealityKitView.swift */; };
+		E6FCAA7A2BD1918900C17D19 /* ARContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6FCAA792BD1918900C17D19 /* ARContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -225,6 +233,8 @@
 		E609ACD32B4EC306008A39D7 /* UserProfileDatabase_1_2.xcmappingmodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcmappingmodel; path = UserProfileDatabase_1_2.xcmappingmodel; sourceTree = "<group>"; };
 		E609ACD62B4EE23E008A39D7 /* SwiftDataLearning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftDataLearning.swift; sourceTree = "<group>"; };
 		E609ACD82B4EE2BB008A39D7 /* StoreManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreManager.swift; sourceTree = "<group>"; };
+		E60BFB3B2C49727200C80180 /* Unet.mlmodelc */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Unet.mlmodelc; sourceTree = "<group>"; };
+		E60BFB6F2C52295300C80180 /* BackgroundRefreshViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundRefreshViewController.swift; sourceTree = "<group>"; };
 		E6395356242CAA06003CF9CE /* SwiftSet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftSet.swift; sourceTree = "<group>"; };
 		E6395358242CAA2A003CF9CE /* SetBase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SetBase.h; sourceTree = "<group>"; };
 		E6395359242CAA2A003CF9CE /* SetBase.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SetBase.m; sourceTree = "<group>"; };
@@ -232,11 +242,17 @@
 		E63AEA722B5A4D4E00116E22 /* KeychainManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainManager.swift; sourceTree = "<group>"; };
 		E66A9E3525626D1D001B3814 /* ReverseSLL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseSLL.swift; sourceTree = "<group>"; };
 		E68899E12709EB1E00EB70A9 /* CustomHoF.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomHoF.swift; sourceTree = "<group>"; };
+		E69886EF2C53AA370005BF63 /* LazySequence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazySequence.swift; sourceTree = "<group>"; };
 		E6C36351238EB7D000526890 /* Sorting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sorting.swift; sourceTree = "<group>"; };
+		E6DD73D42C1DCA020085733C /* BonjourHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BonjourHelper.swift; sourceTree = "<group>"; };
 		E6E9810E2B4FB2B00083262B /* AsyncProgramming.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncProgramming.swift; sourceTree = "<group>"; };
 		E6E981102B4FB3CA0083262B /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 		E6EF8FB525616BE30011276C /* ReverseInt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseInt.swift; sourceTree = "<group>"; };
 		E6FB01662B46A97700E354D7 /* UserProfileDatabase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileDatabase.swift; sourceTree = "<group>"; };
+		E6FCAA2A2BC6C46200C17D19 /* Telephony.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Telephony.swift; sourceTree = "<group>"; };
+		E6FCAA752BD18F7400C17D19 /* ARManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARManager.swift; sourceTree = "<group>"; };
+		E6FCAA772BD18FCE00C17D19 /* RealityKitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealityKitView.swift; sourceTree = "<group>"; };
+		E6FCAA792BD1918900C17D19 /* ARContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -386,6 +402,7 @@
 				CE2B821027831F5D007E0028 /* PropertyWrappers.swift */,
 				CE2EC28828E2284800E9A0AF /* ObjcThreading.h */,
 				CE2EC28928E2284800E9A0AF /* ObjcThreading.m */,
+				E69886EF2C53AA370005BF63 /* LazySequence.swift */,
 			);
 			path = Basics;
 			sourceTree = "<group>";
@@ -424,6 +441,10 @@
 		CEACC45A20C921E200CD5DF6 /* SwiftLearning */ = {
 			isa = PBXGroup;
 			children = (
+				E60BFB6E2C52294600C80180 /* viewController */,
+				E6DD73D32C1DC9930085733C /* BonjourSearch */,
+				E6FCAA742BD18F2200C17D19 /* AugmentedReality */,
+				E6FCAA292BC6C45600C17D19 /* Telephony */,
 				E63AEAD92B5FC90B00116E22 /* RxSwift */,
 				E63AEA702B5A4D3D00116E22 /* DataSecurity */,
 				E6E9810D2B4FB2A30083262B /* AsyncProgramming */,
@@ -438,6 +459,7 @@
 				CE07759620EA4F5400704DBD /* iOS-Basics */,
 				CE6531A920D8DA5900CD9067 /* Basics */,
 				CEACC45B20C921E200CD5DF6 /* AppDelegate.swift */,
+				E60BFB3B2C49727200C80180 /* Unet.mlmodelc */,
 				CEACC45D20C921E200CD5DF6 /* ViewController.swift */,
 				CEACC45F20C921E200CD5DF6 /* Main.storyboard */,
 				CEACC46220C921E200CD5DF6 /* Assets.xcassets */,
@@ -504,6 +526,14 @@
 			path = SwiftData;
 			sourceTree = "<group>";
 		};
+		E60BFB6E2C52294600C80180 /* viewController */ = {
+			isa = PBXGroup;
+			children = (
+				E60BFB6F2C52295300C80180 /* BackgroundRefreshViewController.swift */,
+			);
+			path = viewController;
+			sourceTree = "<group>";
+		};
 		E6395355242CA9D9003CF9CE /* SetTest */ = {
 			isa = PBXGroup;
 			children = (
@@ -545,6 +575,14 @@
 			path = "Hacker-Rank";
 			sourceTree = "<group>";
 		};
+		E6DD73D32C1DC9930085733C /* BonjourSearch */ = {
+			isa = PBXGroup;
+			children = (
+				E6DD73D42C1DCA020085733C /* BonjourHelper.swift */,
+			);
+			path = BonjourSearch;
+			sourceTree = "<group>";
+		};
 		E6E9810D2B4FB2A30083262B /* AsyncProgramming */ = {
 			isa = PBXGroup;
 			children = (
@@ -564,6 +602,24 @@
 				E609ACD32B4EC306008A39D7 /* UserProfileDatabase_1_2.xcmappingmodel */,
 			);
 			path = AdvanceCoreData;
+			sourceTree = "<group>";
+		};
+		E6FCAA292BC6C45600C17D19 /* Telephony */ = {
+			isa = PBXGroup;
+			children = (
+				E6FCAA2A2BC6C46200C17D19 /* Telephony.swift */,
+			);
+			path = Telephony;
+			sourceTree = "<group>";
+		};
+		E6FCAA742BD18F2200C17D19 /* AugmentedReality */ = {
+			isa = PBXGroup;
+			children = (
+				E6FCAA752BD18F7400C17D19 /* ARManager.swift */,
+				E6FCAA772BD18FCE00C17D19 /* RealityKitView.swift */,
+				E6FCAA792BD1918900C17D19 /* ARContentView.swift */,
+			);
+			path = AugmentedReality;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -694,6 +750,7 @@
 				CEACC46320C921E200CD5DF6 /* Assets.xcassets in Resources */,
 				CEACC46E20C9230200CD5DF6 /* ReadMe.md in Resources */,
 				CE2B820F27831599007E0028 /* TapMeView.xib in Resources */,
+				E60BFB3C2C49727200C80180 /* Unet.mlmodelc in Resources */,
 				CEACC46120C921E200CD5DF6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -772,6 +829,7 @@
 				CE254D502B3C1CAF00D158A2 /* CustomizeTheme.swift in Sources */,
 				CE2BB62A22DDB92400DE002F /* MemoryLevel2.swift in Sources */,
 				CE2B8216278ADCA5007E0028 /* AlgoViewController.swift in Sources */,
+				E6FCAA2B2BC6C46200C17D19 /* Telephony.swift in Sources */,
 				CE5181E320F394A600B221EE /* FlatMaps.swift in Sources */,
 				762FC236233223B400567008 /* DynamicCalling.swift in Sources */,
 				CE5181E120F3583600B221EE /* Maps.swift in Sources */,
@@ -788,6 +846,7 @@
 				E609ACD92B4EE2BB008A39D7 /* StoreManager.swift in Sources */,
 				76871B4A232F42CC0017A2EF /* SwiftObjcComm.swift in Sources */,
 				CE3B101620E3A22F0055C83A /* Protocol.swift in Sources */,
+				E69886F02C53AA370005BF63 /* LazySequence.swift in Sources */,
 				CE6531C320D8DEBC00CD9067 /* SwiftQuestions.swift in Sources */,
 				CEACC45C20C921E200CD5DF6 /* AppDelegate.swift in Sources */,
 				CE9C126E20E4F952006D898D /* Generics.swift in Sources */,
@@ -799,6 +858,7 @@
 				CEF61EC422CB306E00C05A4A /* ObjcArrays.m in Sources */,
 				E6FB01672B46A97700E354D7 /* UserProfileDatabase.swift in Sources */,
 				CEF95B7F2752BA2600E60C36 /* SwiftUIViewController.swift in Sources */,
+				E6FCAA782BD18FCE00C17D19 /* RealityKitView.swift in Sources */,
 				CEA90A4620DA7D7B00E6BED6 /* Inheritance.swift in Sources */,
 				CEA5E8AD228C1D7900609EA7 /* BinaryGap.swift in Sources */,
 				CE6531BB20D8DA5900CD9067 /* Methods.swift in Sources */,
@@ -823,13 +883,16 @@
 				CEA5E8AF228C21E400609EA7 /* ArrayEnumeration.swift in Sources */,
 				E6E9810F2B4FB2B00083262B /* AsyncProgramming.swift in Sources */,
 				CE6531C120D8DA5900CD9067 /* Tuples_Dictionaries.swift in Sources */,
+				E6FCAA7A2BD1918900C17D19 /* ARContentView.swift in Sources */,
 				CE424AD1277EE56C00E29709 /* ListModel.swift in Sources */,
 				CE1B247B20EE31470058CC58 /* HighOrderFunctions.swift in Sources */,
 				CE278F1F22800EBC002D02DB /* DesignPatterns.swift in Sources */,
 				76871B4D232F42EB0017A2EF /* ObjcSwiftComm.m in Sources */,
+				E6FCAA762BD18F7400C17D19 /* ARManager.swift in Sources */,
 				CE2B821127831F5D007E0028 /* PropertyWrappers.swift in Sources */,
 				CE8C3EE0226F2F040084B16C /* Dispatch.swift in Sources */,
 				CE6531C020D8DA5900CD9067 /* Structures_Classes.swift in Sources */,
+				E60BFB702C52295300C80180 /* BackgroundRefreshViewController.swift in Sources */,
 				CE254D4E2B3C1B1D00D158A2 /* StateProperty.swift in Sources */,
 				CE67234A2271D6E900528856 /* Pointers.swift in Sources */,
 				762E116923262EB6000F5349 /* MyDispatch.m in Sources */,
@@ -844,6 +907,7 @@
 				CE424ACF277EE52F00E29709 /* ListView.swift in Sources */,
 				CE6531B920D8DA5900CD9067 /* Enumerations.swift in Sources */,
 				CE2EC28A28E2284800E9A0AF /* ObjcThreading.m in Sources */,
+				E6DD73D52C1DCA020085733C /* BonjourHelper.swift in Sources */,
 				E609ACC52B4E9EDF008A39D7 /* Student.swift in Sources */,
 				CE6531BC20D8DA5900CD9067 /* Operators.swift in Sources */,
 			);

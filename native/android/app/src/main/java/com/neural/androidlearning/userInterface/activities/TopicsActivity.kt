@@ -8,17 +8,22 @@ import android.widget.*
 import com.neural.androidlearning.adapters.StringAdapter
 import com.neural.androidlearning.adapters.StringAdapterDataSource
 import com.neural.androidlearning.userInterface.activities.*
+import com.neural.androidlearning.utility.BonjourDiscovery
 
 class TopicsActivity : BaseActivity("TopicsActivity") {
 
     private var listView: ListView? = null
+    private var publisher: BonjourDiscovery? = null
+    private var bonjour: BonjourDiscovery? = null
+
     private var list = arrayListOf<StringAdapterDataSource>(
         StringAdapterDataSource("Fragments", 1),
         StringAdapterDataSource("Network Request", 2),
         StringAdapterDataSource("Broadcast receiver", 3),
         StringAdapterDataSource("BLE Activity", 4),
-        StringAdapterDataSource("SQL Delight", 5)
-
+        StringAdapterDataSource("SQL Delight", 5),
+        StringAdapterDataSource("Bonjour Publish", 6),
+        StringAdapterDataSource("Bonjour Search", 7),
     )
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -45,6 +50,16 @@ class TopicsActivity : BaseActivity("TopicsActivity") {
                 } 4 -> {
                     Log.i(TAG, "SQL Delight")
                     startDatabaseActivity()
+                } 5 -> {
+                    Log.i(TAG, "Bonjour publish")
+                    publisher = BonjourDiscovery(this)
+                    publisher?.register()
+
+                } 6 -> {
+                    Log.i(TAG, "Bonjour search")
+                    bonjour?.stopDiscovery()
+                    bonjour = BonjourDiscovery(this)
+                    bonjour?.search()
                 }
                 else -> {
                     Log.i("TopicsActivity", "Unknown selection $i")

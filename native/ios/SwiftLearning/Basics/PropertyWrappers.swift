@@ -32,26 +32,25 @@ class PropertyWrappers {
 //        }
 //    }
 //
-//    @propertyWrapper
-//    struct DivisibleByTwo {
-//        private var value: Int
-//        var wrappedValue: Int {
-//            get { return value }
-//            set (newValue) {
-//                if (newValue % 2) == 0 {
-//                    value = newValue
-//                }
-//            }
-//        }
-//        init(_ initialValue: Int) {
-//            value = initialValue
-//        }
-//    }
-//
-//    
-//    public func debug() {
-//        
-//        @DivisibleByTwo(1) var prop: Int
+    @propertyWrapper
+    struct DivisibleByTwo {
+        private var value: Int
+        var wrappedValue: Int {
+            get { return value }
+            set (newValue) {
+                if (newValue % 2) == 0 {
+                    value = newValue
+                }
+            }
+        }
+        init(_ initialValue: Int) {
+            value = initialValue
+        }
+    }
+
+    
+    public func debug() {
+        @DivisibleByTwo(1) var prop: Int
 //        
 //        prop = 2
 //        print(prop)
@@ -61,5 +60,5 @@ class PropertyWrappers {
 //
 //        prop = 118
 //        print(prop)
-//    }
+    }
 }

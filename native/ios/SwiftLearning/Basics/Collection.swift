@@ -10,7 +10,7 @@ import Foundation
 
 class Collection{
     
-    // 🤪Interesting Arrays are structures not class type, so they do not follow Object protocol, cannot be inherited from Array
+    // Interesting Arrays are structures not class type, so they do not follow Object protocol, cannot be inherited from Array
 //    class InheritArray : Array<Int>{
 //
 //    }
